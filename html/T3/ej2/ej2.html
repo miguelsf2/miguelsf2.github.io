@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../css/general.css">
+    <link rel="stylesheet" href="../../../css/texto.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-light ">
+        <button class="navbar-toggler" type="button" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="sidebar" id="sidebarMenu">
+        <ul class="nav flex-column">
+            <!-- PARA IR A INICIO-->
+            <li class="nav-item">
+                <p class="tema inicio" style="margin-top: 10px;">
+                    <a href="../../../index.html">Ir a Inicio</a>
+                </p>
+            </li>
+            <div class="temas">
+                <!-- TEMA 1 -->
+                <li class="nav-item">
+                    <p class="tema">Tema 1</p>
+                    <ul>
+                        <li><a href="../../../html/T1/ej1/ej1.html">Ejercicio 1: Montaña Rusa</a></li>
+                        <li><a href="../../../html/T1/ej2/ej2.html">Ejercicio 2: Bola alrededor de un punto</a></li>
+                        <li><a href="../../../html/T1/ej3/ej3.html">Ejercicio 3: Movimiento de una partícula sobre dos funciones oscilatorias</a></li>
+                        <li><a href="../../../html/T1/ej4/ej4.html">Ejercicio 4: Bubble Shooter</a></li>
+                        <li><a href="../../../html/T1/ej5/ej5.html">Ejercicio 5: El Paracaidista</a></li>
+                        <li><a href="../../../html/T1/ej6/ej6.html">Ejercicio 6: Euler Explícito</a></li>
+                        <li><a href="../../../html/T1/ej7/ej7.html">Ejercicio 7: Error numérico y estabilidad</a></li>
+                        <li><a href="../../../html/T1/ej8/ej8.html">Ejercicio 8: Tiro parabólico</a></li>
+                        <li><a href="../../../html/T1/ej9/ej9.html">Ejercicio 9: Burbuja de aire</a></li>
+                        <li><a href="../../../html/T1/ej10/ej10.html">Ejercicio 10: RK2 y RK4 en el ejercicio de Euler Explícito</a></li>
+                        <li><a href="../../../html/T1/ej11/ej11.html">Ejercicio 11: Plano Inclinado</a></li>
+                        <li><a href="../../../html/T1/ej12/ej12.html">Ejercicio 12: Acelerador de coche</a></li>
+                      </ul>                      
+                </li>
+
+                <!-- TEMA 2 -->
+                <li class="nav-item">
+                    <p class="tema">Tema 2</p>
+                    <ul>
+                        <li><a href="../../../html/T2/ej1y2/ej1y2.html">Ejercicio 1 y 2: Particula Flotante y Splash</a></li>
+                        <li><a href="../../../html/T2/ej3/ej3.html">Ejercicio 3: Fuente</a></li>
+                    </ul>
+                </li>
+
+                <!-- TEMA 3 -->
+                <li class="nav-item">
+                    <p class="tema">Tema 3</p>
+                    <ul>
+                        <li><a href="../../../html/T3/ej1/ej1.html">Ejercicio 1: Pelo</a></li>
+                        <li class="active"><a href="../../../html/T3/ej2/ej2.html">Ejercicio 2: Banderas</a></li>
+                        <li><a href="../../../html/T3/ej3/ej3.html">Ejercicio 3: Tela colisionando con esfera</a></li>
+                    </ul>
+                </li>                
+            </div>
+            <div class="practicas">
+                <!-- PRACTICA 1 -->
+                <li class="nav-item">
+                    <p class="tema"> <a class="tema" href="../../../html/PRACTICAS/p1/p1.html" style="text-align: center;">Práctica 1</a></p>
+                </li>
+
+                <!-- PRACTICA 2 -->
+                <li class="nav-item">
+                    <p class="tema"> <a class="tema" href="../../../html/PRACTICAS/p2/p2.html" style="text-align: center;">Práctica 2</a></p>
+                </li>
+
+                <!-- PRACTICA 3 -->
+                    <li class="nav-item">
+                    <p class="tema">Práctica 3</p>
+                    <ul>
+                        <li><a href="../../../html/PRACTICAS/p3/p3.1.html">Parte 1: Billar Francés</a></li>
+                        <li><a href="../../../html/PRACTICAS/p3/p3.2.html">Parte 2: Recipiente</a></li>
+                    </ul>
+                </li>
+
+                <!-- PRACTICA 4 -->
+                <li class="nav-item">
+                    <p class="tema">Práctica 4</p>
+                    <ul>
+                        <li><a href="../../../html/PRACTICAS/p4/p4.1.html">Parte 1: Portería</a></li>
+                        <li><a href="../../../html/PRACTICAS/p4/p4.2.html">Parte 2: Olas</a></li>
+                    </ul>
+                </li>     
+                
+                <!-- PRACTICA 5 -->
+                <li class="nav-item">
+                    <p class="tema"> <a class="tema" href="../../../html/PRACTICAS/p5/p5.html" style="text-align: center;">Práctica 5</a></p>
+                </li> 
+            </div>
+        </ul>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div class="content" id="mainContent">
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <div style="height: 75vh;">
+                <h1 class="titulo">Ejercicio 2: Banderas</h1>
+                <a href="https://openprocessing.org/sketch/2292988">Enlace para ver el codigo</a>
+                
+                <!-- IMAGEN-->
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./banderas.png" alt="banderas" width="500px"> 
+                      </div>
+                    </div>
+                </div>
+                <p>En este ejercicio, he creado 3 banderas con 3 estructuras de mallas distintas para compararlas y ver qué efecto tiene cada una de estas estructuras.</p>
+                <p>Las tres estructuras de muelles usadas son las siguientes:</p>
+                <ul>
+                    <li class="list_item">Structural: Usada por la bandera roja. Las partículas se unen con sus vecinos verticales y horizontales:</li>
+                    <li class="list_item">Shear: Usada por la bandera verde. Las partículas se unen con sus vecinos diagonales</li>
+                    <li class="list_item">Bend: Usada por la bandera azul. Cada partícula se une con las partículas que se encuentran a una distancia de 2 partículas, horizontal y verticalmente.</li>
+                </ul>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./banderas2.png" alt="banderas" width="500px"> 
+                      </div>
+                    </div>
+                </div>
+                <p>Los parámetros utilizados para el video han sido los siguientes:</p>
+                <ul>
+                    <li class="list_item">TS: 0.001</li>
+                    <li class="list_item">G: 98.1</li>
+                    <li class="list_item">M: 0.5</li>
+                    <li class="list_item">RANDMIN: 500</li>
+                    <li class="list_item">RANDMAX: 1000</li>
+                    <li class="list_item">Ke: 200</li>
+                    <li class="list_item">Kd: 0.1</li>
+                    <li class="list_item">N_H: 20</li>
+                    <li class="list_item">N_V: 20</li>
+                    <li class="list_item">D_H: 8</li>
+                    <li class="list_item">D_V: 4</li>
+                </ul>
+                <h2><b><u>DeformableObject</u></b></h2>
+                <p>Esta clase es la que almacena la malla del objeto deformable (en nuestro caso, cada bandera). Contiene los siguientes elementos:</p>
+                <ul>
+                    <li class="list_item">Número de nodos verticales y Horizontales</li>
+                    <li class="list_item">Tamaño de la separación entre nodos verticales y horizontales</li>
+                    <li class="list_item">Constante elástica y constante de amortiguamiento de sus muelles</li>
+                    <li class="list_item">Estructura de muelles del objeto</li>
+                    <li class="list_item">Color</li>
+                    <li class="list_item">Matriz de partículas</li>
+                    <li class="list_item">Lista de muelles que contiene</li>
+                    <li class="list_item">Grosor de las cuerdas</li>
+                </ul>
+                <p>En el constructor se inicializan las variables. De este tenemos que destacar las siguientes funciones:</p>
+                <ul>
+                    <li class="list_item"><b>crearMalla(posini):</b> Se encarga de inicializar la matriz de partículas en función de las cantidades de nodos verticales y horizontales. Para los bordes de la última columna establecemos que las partículas están ancladas y sin gravedad.</li>
+                    <li class="list_item"><b>crearSpringLayout(springLayout):</b> Se encarga de crear la lista de muelles en funcion del layout del objeto. Las estructuras que se pueden crear son las siguientes:</li>
+                    <ul>
+                        <li class="list_item">
+                        <p><b>Structural:</b> Para crear este layout, se recorren todas las partículas de la matriz en un doble bucle for y en cada iteración se añade un muelle entre la partícula actual con la vecina que se tiene a la izquierda (en una columna menos, j-1) (salvo en el caso de la primera columna) y otro con la vecina que se tiene arriba (en una fila menos, i-1) (salvo en el caso de la primera fila)</p>
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-12 d-flex justify-content-center align-items-center">
+                                <img src="./structural.png" alt="banderas" width="500px"> 
+                              </div>
+                            </div>
+                        </div>
+                        </li>
+                        <li class="list_item">
+                            <p><b>Shear:</b> Para crear esta estructura, calculamos primero la distancia de separación entre nodos, que será la distancia en diagonal. La calculamos con el teorema de Pitágoras:</p> 
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-center align-items-center">
+                                        <img src="./sep_shear.png" alt="banderas" width="500px"> 
+                                    </div>
+                                </div>
+                            </div> 
+                            <p>Una vez tenemos la separación se recorren todas las partículas de la matriz y en cada iteración del doble bucle for se crea un muelle entre la partícula actual y la que se encuentra abajo a la izquierda (en una fila más y una columna menos, i+1 ,j-1) (salvo en el caso de que la partícula este en la última fila y primera columna) y otro muelle con la partícula actual y la que se encuentra abajo a la derecha (en una fila más y una columna más, i+1, j+1) (salvo en el caso de que la partícula este en la última fila y última columna).</p> 
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <img src="./shear.png" alt="shear" width="500px"> 
+                                  </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <p><b>Bend: </b>Para crear esta estructura, primero llamamos a la función crearStructural() ya que sino la malla se dividirá en dos al tener los vecinos conectados de dos a dos. Al recorrer todas las partículas de la matriz, en cada iteración crearemos los muelles horizontales(i, j+2) (salvo los casos en los que la columna de la partícula sea la antepenúltima, j < nodosVerticales-2) y los muelles verticales (i+2, j) (salvo los casos en los que la fila de la partícula sea la antepenúltima, i < nodosHorizontales-2).</p>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <img src="./bend.png" alt="bend" width="500px"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+                <p>Según el tipo de renderizado del programa en la función render() se dibujará la malla o en modo sólido o en modo wireframe. En el modo wireframe podemos ver correctamente la disposición de muelles según la estructura de cada bandera.</p>
+                <p>En la función update() realizamos los siguientes pasos:</p>
+                <ol>
+                    <li class="list_item">
+                        <p><b>Añadimos las fuerzas externas: </b>A todas las particulas le añadimos la fuerza del viento que lo hacemos con el siguiente codigo:</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-center align-items-center">
+                                <img src="./añadimos_fuerzas_externas.png" alt="bend" width="2000px"> 
+                                </div>
+                            </div>
+                        </div>
+                        <p>La fuerza del viento es proporcional al producto escalar entre el vector viento y el vector normal en la partícula.</p>
+                    </li>
+                    <li class="list_item">
+                      <p><b>Añadimos las fuerzas internas </b>actualizando todos los muelles de la bandera.</p>  
+                    </li>
+                    <li class="list_item">
+                        <p><b>Actualizamos las particulas de la malla.</b></p>
+                    </li>
+                </ol>
+
+
+                <!-- VIDEO-->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/kvMiTmHdis0?si=pR0S9iO3w8uHnTkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container fixed-bottom">
+        <p class="col-md-6 col-lg-4 mb-0 text-center text-md-left text-body-secondary">2023-2024 Simulación 3º GIM, ETSE</p>
+        <p class="col-md-6 col-lg-4 mb-0 text-center text-md-right">Hecho por Miguel Sánchez Ferrer</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('#sidebarMenu').toggleClass('show');
+                $('#mainContent').toggleClass('shifted');
+            });
+        });
+    </script>    
+</body>
+</html>

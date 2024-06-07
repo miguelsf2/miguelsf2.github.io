@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../css/general.css">
+    <link rel="stylesheet" href="../../../css/texto.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-light ">
+        <button class="navbar-toggler" type="button" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="sidebar" id="sidebarMenu">
+        <ul class="nav flex-column">
+            <!-- PARA IR A INICIO-->
+            <li class="nav-item">
+                <p class="tema inicio" style="margin-top: 10px;">
+                    <a href="../../../index.html">Ir a Inicio</a>
+                </p>
+            </li>
+            <div class="temas">
+                <!-- TEMA 1 -->
+                <li class="nav-item">
+                    <p class="tema">Tema 1</p>
+                    <ul>
+                        <li><a href="../../../html/T1/ej1/ej1.html">Ejercicio 1: Montaña Rusa</a></li>
+                        <li><a href="../../../html/T1/ej2/ej2.html">Ejercicio 2: Bola alrededor de un punto</a></li>
+                        <li><a href="../../../html/T1/ej3/ej3.html">Ejercicio 3: Movimiento de una partícula sobre dos funciones oscilatorias</a></li>
+                        <li><a href="../../../html/T1/ej4/ej4.html">Ejercicio 4: Bubble Shooter</a></li>
+                        <li><a href="../../../html/T1/ej5/ej5.html">Ejercicio 5: El Paracaidista</a></li>
+                        <li><a href="../../../html/T1/ej6/ej6.html">Ejercicio 6: Euler Explícito</a></li>
+                        <li><a href="../../../html/T1/ej7/ej7.html">Ejercicio 7: Error numérico y estabilidad</a></li>
+                        <li class="active"><a href="../../../html/T1/ej8/ej8.html">Ejercicio 8: Tiro parabólico</a></li>
+                        <li><a href="../../../html/T1/ej9/ej9.html">Ejercicio 9: Burbuja de aire</a></li>
+                        <li><a href="../../../html/T1/ej10/ej10.html">Ejercicio 10: RK2 y RK4 en el ejercicio de Euler Explícito</a></li>
+                        <li><a href="../../../html/T1/ej11/ej11.html">Ejercicio 11: Plano Inclinado</a></li>
+                        <li><a href="../../../html/T1/ej12/ej12.html">Ejercicio 12: Acelerador de coche</a></li>
+                        </ul>                      
+                </li>
+
+                <!-- TEMA 2 -->
+                <li class="nav-item">
+                    <p class="tema">Tema 2</p>
+                    <ul>
+                        <li><a href="../../../html/T2/ej1y2/ej1y2.html">Ejercicio 1 y 2: Particula Flotante y Splash</a></li>
+                        <li><a href="../../../html/T2/ej3/ej3.html">Ejercicio 3: Fuente</a></li>
+                    </ul>
+                </li>
+
+                <!-- TEMA 3 -->
+                <li class="nav-item">
+                    <p class="tema">Tema 3</p>
+                    <ul>
+                        <li><a href="../../../html/T3/ej1/ej1.html">Ejercicio 1: Pelo</a></li>
+                        <li><a href="../../../html/T3/ej2/ej2.html">Ejercicio 2: Banderas</a></li>
+                        <li><a href="../../../html/T3/ej3/ej3.html">Ejercicio 3: Tela colisionando con esfera</a></li>
+                    </ul>
+                </li>                
+            </div>
+            <div class="practicas">
+                <!-- PRACTICA 1 -->
+                <li class="nav-item">
+                    <p class="tema"> <a class="tema" href="../../../html/PRACTICAS/p1/p1.html" style="text-align: center;">Práctica 1</a></p>
+                </li>
+
+                <!-- PRACTICA 2 -->
+                <li class="nav-item">
+                    <p class="tema"> <a class="tema" href="../../../html/PRACTICAS/p2/p2.html" style="text-align: center;">Práctica 2</a></p>
+                </li>
+
+                <!-- PRACTICA 3 -->
+                    <li class="nav-item">
+                    <p class="tema">Práctica 3</p>
+                    <ul>
+                        <li><a href="../../../html/PRACTICAS/p3/p3.1.html">Parte 1: Billar Francés</a></li>
+                        <li><a href="../../../html/PRACTICAS/p3/p3.2.html">Parte 2: Recipiente</a></li>
+                    </ul>
+                </li>
+
+                <!-- PRACTICA 4 -->
+                <li class="nav-item">
+                    <p class="tema">Práctica 4</p>
+                    <ul>
+                        <li><a href="../../../html/PRACTICAS/p4/p4.1.html">Parte 1: Portería</a></li>
+                        <li><a href="../../../html/PRACTICAS/p4/p4.2.html">Parte 2: Olas</a></li>
+                    </ul>
+                </li>     
+                
+                <!-- PRACTICA 5 -->
+                <li class="nav-item">
+                    <p class="tema"> <a class="tema" href="../../../html/PRACTICAS/p5/p5.html" style="text-align: center;">Práctica 5</a></p>
+                </li> 
+            </div>
+        </ul>
+    </div>
+    <!-- CONTENIDO -->
+    <div class="content" id="mainContent">
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <div style="height: 75vh;">
+                <h1 class="titulo">Ejercicio 8: Tiro parabólico</h1>
+                <a href="https://openprocessing.org/sketch/2292910">Enlace para ver el codigo</a>
+                
+                <!-- IMAGEN-->
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./ej8.png" alt="tiro parabolico">
+                      </div>
+                    </div>
+                  </div>
+                
+                <p>Los parámetros utilizados han sido los siguientes:</p>
+                <ul>
+                    <li class="list_item">Tamaño de ventana: 800x600</li>
+                    <li class="list_item">Sim_step: 0.02</li>
+                    <li class="list_item">Radio: 20</li>
+                    <li class="list_item">Masa: 10</li>
+                    <li class="list_item">G: 98.1</li>
+                    <li class="list_item">K: 0</li>
+                    <li class="list_item">N_PLATS: 6</li>
+                    <li class="list_item">S0: (50, HEIGHT-40)</li>
+                </ul>
+                <p>Donde G es la gravedad de la bola, K es la constante de rozamiento, N_PLATS es el número de plataformas generadas y S0 es la posición inicial de la bola.</p>
+                <p>Para generar las plataformas, he creado una clase Plataforma en la que se guarda su posición en X, su largura y su anchura. En la función setup(), tras inicializar la velocidad, posición y aceleración de la particula a 0 y las booleanas de apuntando y disparo a false, se llama a la funcion crearPlataformas() donde como su nombre indica, se generan las plataformas con el siguiente algoritmo:</p>
+
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./codigo.png" alt="codigo plataformas">
+                      </div>
+                    </div>
+                  </div>
+
+                <p>En esta función, se genera un ArrayList de plataformas y en cada iteración del bucle for, se generan valores aleatorios para los atributos de la plataforma y por ultimo se añaden las plataformas al arraylist.</p>
+                <p>Las variables booleanas _apuntando y _ disparo indican el estado de la pelota. Inicialmente estan en false. Cuando se recoja el evento del ratón del click izquierdo, _apuntando pasará a ser true, lo que hará que se dibuje una linea entre la posición del ratón y la posición de la particula en la función de dibujado. Cuando se suelte el botón izquierdo del ratón, __disparo pasará a ser true lo que hará que en la función updateSimulation(), si estas dos variables son verdaderas, se establezca la velocidad de la pelota como la resta de la posición del ratón menos la posición de la pelota y apuntando se ponga en false para que desaparezca la linea. Tras esto, si _disparo es verdadero, se actualizará la posición de la pelota con el método de Euler explícito.</p>
+                <p>Para calcular la aceleración de la partícula, tenemos dos fuerzas en el sistema:</p>
+                
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./fuerzas.png" alt="fuerzas" width="500px">
+                      </div>
+                    </div>
+                  </div>
+
+                <p>Donde Froz es la fuerza de rozamiento con el aire y Fpeso es la fuerza de la gravedad. Estas dos fuerzas se sumarán y para calcular la aceleración, se divide esta fuerza total entre la masa de la particula.</p>
+                
+                <h2>Calculo del error</h2>
+                <a href="https://docs.google.com/spreadsheets/d/1Uk0TQHpu9RMJkU_v2w3o6fIm5W9Tr3B0/edit?usp=sharing&ouid=109006578681050951211&rtpof=true&sd=true">Enlace al fichero generado</a>
+
+                <p>Para poder calcular el error, he generado un fichero csv en el que se guarda la posición, velocidad y aceleración de la particula en cada instante de tiempo. Es importante recalcar la linea en la que se escriben los datos al csv:</p>
+                <p style="font-family: monospace; font-size: 25px; text-align: center;">writeToFile(_simTime + ", " + _s.x + ", " + (HEIGHT-_s.y) + ", " + _v.x + ", " + (-_v.y) + ", " + _a.x + "," + (-_a.y));</p>
+                <p>Ya que como sabemos, el eje vertical en processing va desde la parte superior izquierda hacia abajo, por lo que la posición vertical de la particula verdadera será la resta entre la dimensión vertical de la pantalla menos la posición vertical de la pelota. Además, a las velocidades y aceleraciones verticales tenemos que cambiarles el signo para que apunten realmente hacia abajo. El tiempo total de la simulación ha sido de 11.14 segundos.</p>
+                <p>He convertido el csv a Excel para poder generar gráficas y ver cómo va creciendo el error a lo largo del tiempo:</p>
+                
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./grafica1.png" alt="fuerzas" width="1000px">
+                      </div>
+                    </div>
+                  </div>
+                
+                <p>En la Gráfica 1, podemos ver a simple vista que el comportamiento de Euler explicito ha sido el correcto, ya que ha seguido la misma trayectoria que la solución analítica. Vemos que la posición llega a ser negativa, debido a que la particula se sale de la dimensión vertical de la ventana de processing.</p>
+                <p>Sin embargo, en la Gráfica 2 podemos ver cómo el error va incrementando a lo largo del tiempo de forma lineal. Como la simulación no ha durado mucho tiempo, el error no se ha apreciado demasiado pero si la simulación fuese más larga, veríamos cómo en la Gráfica 1 la Sy de Euler se alejaría de la trayectoria de la Sy real.</p>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center align-items-center">
+                        <img src="./grafica2.png" alt="fuerzas" width="1000px">
+                      </div>
+                    </div>
+                  </div>
+                <!-- VIDEO-->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/3asBta-WWU8?si=PuuS5oshEf2fM1bC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container fixed-bottom">
+        <p class="col-md-6 col-lg-4 mb-0 text-center text-md-left text-body-secondary">2023-2024 Simulación 3º GIM, ETSE</p>
+        <p class="col-md-6 col-lg-4 mb-0 text-center text-md-right">Hecho por Miguel Sánchez Ferrer</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('#sidebarMenu').toggleClass('show');
+                $('#mainContent').toggleClass('shifted');
+            });
+        });
+    </script>    
+</body>
+</html>
